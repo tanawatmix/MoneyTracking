@@ -329,7 +329,7 @@ class _IncomeViewState extends State<OutcomeViewUI> {
                             child: Row(
                               children: [
                                 ImageIcon(
-                                  AssetImage('assets/icons/income2.png'),
+                                  AssetImage('assets/icons/income.png'),
                                   color: Colors.white,
                                   size: MediaQuery.of(context).size.height *
                                       0.029,
@@ -360,7 +360,7 @@ class _IncomeViewState extends State<OutcomeViewUI> {
                           Padding(
                             padding: EdgeInsets.only(left: 10),
                             child: ImageIcon(
-                              AssetImage('assets/icons/outcome2.png'),
+                              AssetImage('assets/icons/outcome.png'),
                               color: Colors.white,
                               size: MediaQuery.of(context).size.height * 0.029,
                             ),
@@ -603,7 +603,7 @@ class _IncomeViewState extends State<OutcomeViewUI> {
                         } else if (_DateSelected == '' ||
                             _DateSelected == null) {
                           showWaringDialog(
-                              context, 'เลือกวัน เดือน ปีที่เงินออกด้วย');
+                              context, 'เลือก วัน/เดือน/ปี ที่เงินออกด้วย');
                         } else {
                           Money money = Money(
                             moneyDetail: moneyDetailCtrl.text,

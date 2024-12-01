@@ -270,7 +270,7 @@ class _IncomeViewState extends State<IncomeViewUI> {
                         ),
                       ],
                       borderRadius: BorderRadius.circular(
-                        27,
+                        30,
                       )),
                 ),
               ),
@@ -550,7 +550,7 @@ class _IncomeViewState extends State<IncomeViewUI> {
                             readOnly: true,
                             enabled: true,
                             decoration: InputDecoration(
-                              labelText: 'วัน เดือน ปีที่เงินเข้า',
+                              labelText: 'วัน/เดือน/ปี ที่เงินเข้า',
                               labelStyle: TextStyle(
                                 color: Color(0xFF3E7C78),
                               ),
@@ -602,7 +602,7 @@ class _IncomeViewState extends State<IncomeViewUI> {
                         } else if (_DateSelected == '' ||
                             _DateSelected == null) {
                           showWaringDialog(
-                              context, 'เลือกวัน เดือน ปีที่เงินเข้าด้วย');
+                              context, 'เลือก วัน/เดือน/ปี ที่เงินเข้าด้วย');
                         } else {
                           Money money = Money(
                             moneyDetail: moneyDetailCtrl.text,

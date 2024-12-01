@@ -76,7 +76,7 @@ class _LoginUIState extends State<LoginUI> {
                       },
                     ),
                     Text(
-                      '       เข้าใช้งาน Money Tracking',
+                      '  เข้าใช้งาน Money Tracking  ',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
@@ -109,7 +109,7 @@ class _LoginUIState extends State<LoginUI> {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(
-                              'assets/images/money.png',
+                              'assets/images/money(1).png',
                               width: MediaQuery.of(context).size.width * 0.45,
                             ),
                           ),

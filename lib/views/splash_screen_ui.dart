@@ -54,7 +54,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
                     height: MediaQuery.of(context).size.height * 0.4,
                   ),
                   Text(
-                    "Money Tracking",
+                    "MoneyTracking",
                     style: TextStyle(
                       fontSize: MediaQuery.of(context).size.height * 0.035,
                       fontWeight: FontWeight.bold,
@@ -73,7 +73,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
                     height: MediaQuery.of(context).size.height * 0.38,
                   ),
                   Text(
-                    "Created by 6552410002",
+                    "Created By 6552410002",
                     style: TextStyle(
                       fontSize: MediaQuery.of(context).size.height * 0.020,
                       fontWeight: FontWeight.bold,

@@ -164,7 +164,7 @@ class _MainViewUIState extends State<MainViewUI> {
                         child: Row(
                           children: [
                             ImageIcon(
-                              AssetImage('assets/icons/income2.png'),
+                              AssetImage('assets/icons/income.png'),
                               color: Colors.white,
                               size: MediaQuery.of(context).size.height * 0.029,
                             ),
@@ -194,7 +194,7 @@ class _MainViewUIState extends State<MainViewUI> {
                       Padding(
                         padding: EdgeInsets.only(left: 10),
                         child: ImageIcon(
-                          AssetImage('assets/icons/outcome2.png'),
+                          AssetImage('assets/icons/outcome.png'),
                           color: Colors.white,
                           size: MediaQuery.of(context).size.height * 0.029,
                         ),
@@ -320,11 +320,11 @@ class _MainViewUIState extends State<MainViewUI> {
                                   ListTile(
                                     leading: transaction.moneyType == '1'
                                         ? Image.asset(
-                                            'assets/icons/moneycome.png',
+                                            'assets/icons/come.png',
                                             width: 30,
                                           )
                                         : Image.asset(
-                                            'assets/icons/moneyout.png',
+                                            'assets/icons/out.png',
                                             width: 30,
                                           ),
                                     title: Text(

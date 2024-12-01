@@ -367,7 +367,7 @@ class _RegisterUIState extends State<RegisterUI> {
                                     labelStyle: TextStyle(
                                       color: Color(0xFF666666),
                                     ),
-                                    labelText: 'วัน-เดือน-ปี เกิด',
+                                    labelText: 'วัน/เดือน/ปี เกิด',
                                     hintText: 'YOUR BIRTHDAY',
                                     hintStyle: TextStyle(
                                       color: Colors.grey,
